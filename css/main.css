@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body { 
+    padding: 0;
+    margin: 0; 
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        rgb(207, 205, 205) 0%,
+        rgb(207, 205, 205) 20%,
+        white 20%,
+        white 100%
+    );  
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+    height: 100vh;
+}
+  
+.box {
+    width: 40%;  
+}
+
+.box:nth-child(2) {
+    background: none;
+    margin: 100px;
+    height: 400px;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.choose-color {
+    width: 50px; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 40px 2px;
+    cursor: pointer; 
+} 
+
+.choose-color:nth-child(1) {
+    background: rgb(207, 205, 205);
+}
+
+.choose-color:nth-child(2) {
+    background: rgba(8, 8, 8, 0.808);
+}
+
+.choose-color:nth-child(3) {
+    background: rgba(128, 128, 128, 0.767);
+}
+
+.choose-color:nth-child(4) {
+    background: rgba(0, 0, 255, 0.774);
+}
+
+.choose-color:nth-child(5) {
+    background: rgba(255, 0, 0, 0.747);
+}
